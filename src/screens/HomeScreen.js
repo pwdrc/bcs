@@ -1,15 +1,17 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 const HomeScreen = () => {
+  const isWeb = Platform.OS === 'web';
+
   return (
-    <ScrollView style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.headerText}>Simplificando Direito</Text>
+    <ScrollView style={isWeb ? styles.webContainer : styles.container}>
+      <View style={isWeb ? styles.webHeader : styles.header}>
+        <Text style={isWeb? styles.webheaderText : styles.headerText}>Simplificando Direito</Text>
         <Ionicons name="person-circle" size={40} color="purple" />
       </View>
-      <View style={styles.statusContainer}>
+      <View style={isWeb ? styles.webStatusContainer : styles.statusContainer}>
         <Image source={{ uri: 'https://via.placeholder.com/50' }} style={styles.profileImage} />
         <View>
           <Text style={styles.statusText}>
@@ -52,9 +54,15 @@ const HomeScreen = () => {
           </View>
         </View>
       </View>
-      <View style={styles.floatingButton}>
-        <Ionicons name="chatbubble-ellipses" size={24} color="white" />
-      </View>
+      {isWeb ? (
+        <View style={styles.webFloatingButton}>
+          <Ionicons name="chatbubble-ellipses" size={34} color="white" />
+        </View>
+      ) : (
+        <View style={styles.floatingButton}>
+          <Ionicons name="chatbubble-ellipses" size={24} color="white" />
+        </View>
+      )}
     </ScrollView>
   );
 };
@@ -65,14 +73,32 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     padding: 16,
   },
+  webContainer: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+    paddingLeft: 200,
+    paddingRight: 200,
+  
+  },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 16,
   },
+  webHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 24,
+      },
   headerText: {
     fontSize: 18,
+    fontWeight: 'bold',
+    color: 'purple',
+  },
+  webheaderText: {
+    fontSize: 40,
     fontWeight: 'bold',
     color: 'purple',
   },
@@ -80,6 +106,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 16,
+  },
+  webStatusContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 24,
   },
   profileImage: {
     width: 50,
@@ -175,6 +206,17 @@ const styles = StyleSheet.create({
     height: 56,
     borderRadius: 28,
     position: 'absolute',
+    bottom: 16,
+    right: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  webFloatingButton: {
+    backgroundColor: 'purple',
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+    position: 'fixed',
     bottom: 16,
     right: 16,
     justifyContent: 'center',

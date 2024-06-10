@@ -45,7 +45,7 @@ function App() {
 
             return <Ionicons name={iconName} size={size} color={color} />;
           },
-          tabBarActiveTintColor: 'tomato',
+          tabBarActiveTintColor: '21005D',
           tabBarInactiveTintColor: 'gray',
           tabBarStyle: {
             backgroundColor: '#D0BCFF', // Define a cor de fundo da barra de navegação
@@ -56,11 +56,11 @@ function App() {
       >
         <Tab.Screen name="Início" component={HomeScreen} />
         <Tab.Screen name="Consultoria" component={LawyersStack} />
-        <Tab.Screen name="Documentos" component={DocumentScreen} />
-        <Tab.Screen name="Scanner" component={ScannerScreen} />
+   
       </Tab.Navigator>
     </NavigationContainer>
   );
 }
-
+//<Tab.Screen name="Documentos" component={DocumentScreen} />
+//<Tab.Screen name="Scanner" component={ScannerScreen} />
 export default App;
