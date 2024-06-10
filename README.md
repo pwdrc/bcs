@@ -1,6 +1,6 @@
-# README.md
+# Better Call Saul App - BCS App
 
-## Description parody with better caul saul
+## Description
 Hey, Inocent! I'm Saul Goodman, and I'm here to help you. Access to my App and find the best law service for a Good Price.
 
 ## Technologies
