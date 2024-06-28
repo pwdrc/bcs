@@ -10,6 +10,7 @@ import DocumentScreen from './src/screens/DocumentScreen';
 import ScannerScreen from './src/screens/ScannerScreen';
 import EmailSentScreen from './src/screens/EmailSentScreen';
 import ContactEmailScreen from './src/screens/ContactEmailScreen';
+import LawyerRegistrationScreen from './src/screens/LawyerRegistrationScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();

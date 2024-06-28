@@ -1,0 +1,1449 @@
+/* Página de Cadastro-Advogados - versão que será entregue */
+
+position: relative;
+width: 511px;
+height: 1037px;
+
+background: #FFFFFF;
+
+
+/* Menu 1
+
+3 segment Next navigation bar with icon &amp; label 
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 8px;
+gap: 8px;
+
+position: absolute;
+width: 511px;
+height: 80px;
+left: 0px;
+top: 957px;
+
+/* Roxo Claro
+
+Para fundo com texto roxo escuro, ou para texto em fundo roxo
+*/
+background: #D0BCFF;
+border-radius: 8px 8px 0px 0px;
+
+
+/* Segment 1
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 159.67px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 3
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.5%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 159.67px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 4
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 64px;
+height: 32px;
+
+/* M3/sys/light/secondary-container */
+background: #E8DEF8;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 4.17%;
+top: 12.5%;
+bottom: 4.17%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 159.67px;
+height: 16px;
+
+/* M3/label/medium - prominent */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* M3/sys/light/on-surface */
+color: #1D1B20;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 5
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+display: none;
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Menu 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 511px;
+height: 79px;
+left: 0px;
+top: 0px;
+
+
+
+/* Navigation bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 8px;
+gap: 8px;
+
+width: 511px;
+height: 79px;
+
+/* Roxo Claro
+
+Para fundo com texto roxo escuro, ou para texto em fundo roxo
+*/
+background: #D0BCFF;
+border-radius: 0px 0px 8px 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Segment 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px 1px;
+
+width: 243.5px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 252px;
+height: 63px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+
+width: 252px;
+height: 63px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo_she_hacks-removebg-preview 1 */
+
+width: 203px;
+height: 63px;
+
+background: url(logo_she_hacks-removebg-preview.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Segment 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 243.5px;
+height: 84px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 59px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons/account_circle_filled_24px
+
+human, person, people, face, profile, user, account, thumbnail, circle
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* icon */
+
+position: absolute;
+left: 8.81%;
+right: 69.86%;
+top: 15.43%;
+bottom: 74.16%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* CAMPO senha */
+
+position: absolute;
+width: 422px;
+height: 66px;
+left: 41px;
+top: 566px;
+
+
+
+/* Insira uma senha de acesso */
+
+position: absolute;
+width: 378px;
+height: 19px;
+left: 49px;
+top: 601px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Senha */
+
+position: absolute;
+width: 369.9px;
+height: 19px;
+left: 41px;
+top: 566px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 422px;
+height: 38px;
+left: 41px;
+top: 594px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* CAMPO senha */
+
+position: absolute;
+width: 422px;
+height: 66px;
+left: 41px;
+top: 644px;
+
+
+
+/* Reinsira a senha de acesso */
+
+position: absolute;
+width: 378px;
+height: 19px;
+left: 52px;
+top: 679px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Comfirme a senha */
+
+position: absolute;
+width: 369.9px;
+height: 19px;
+left: 41px;
+top: 644px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 422px;
+height: 38px;
+left: 41px;
+top: 672px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* CAMPO especialidade */
+
+position: absolute;
+width: 423px;
+height: 66px;
+left: 38px;
+top: 403px;
+
+
+
+/* Selecione */
+
+position: absolute;
+width: 378.9px;
+height: 19px;
+left: 47px;
+top: 438px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* Roxo */
+color: #6750A4;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Especialidade */
+
+position: absolute;
+width: 370.78px;
+height: 19px;
+left: 38px;
+top: 403px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 423px;
+height: 38px;
+left: 38px;
+top: 431px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* CAMPO especialidade */
+
+position: absolute;
+width: 423px;
+height: 66px;
+left: 38px;
+top: 486px;
+
+
+
+/* Selecione */
+
+position: absolute;
+width: 378.9px;
+height: 19px;
+left: 47px;
+top: 521px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* Roxo */
+color: #6750A4;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Nº OAB */
+
+position: absolute;
+width: 370.78px;
+height: 19px;
+left: 38px;
+top: 486px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 423px;
+height: 38px;
+left: 38px;
+top: 514px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* CAMPO celular */
+
+position: absolute;
+width: 218px;
+height: 64px;
+left: 252px;
+top: 323px;
+
+
+
+/* Celular */
+
+position: absolute;
+width: 138.24px;
+height: 19px;
+left: 252px;
+top: 323px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* (DD) 00000-0000 */
+
+position: absolute;
+width: 164.83px;
+height: 19px;
+left: 267.95px;
+top: 358px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* Roxo */
+color: #6750A4;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 218px;
+height: 38.21px;
+left: 252px;
+top: 348.79px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* CAMPO e-mail */
+
+position: absolute;
+width: 191px;
+height: 66px;
+left: 38px;
+top: 320px;
+
+
+
+/* Insira seu e-mail */
+
+position: absolute;
+width: 171.09px;
+height: 19px;
+left: 52.03px;
+top: 355px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* Roxo */
+color: #6750A4;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* E-mail */
+
+position: absolute;
+width: 167.42px;
+height: 19px;
+left: 38px;
+top: 320px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 191px;
+height: 38px;
+left: 38px;
+top: 348px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* CAMPO cpf */
+
+position: absolute;
+width: 288px;
+height: 66px;
+left: 182px;
+top: 218px;
+
+
+
+/* Insira seu CPF */
+
+position: absolute;
+width: 257.97px;
+height: 19px;
+left: 203.16px;
+top: 253px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* Roxo */
+color: #6750A4;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* CPF */
+
+position: absolute;
+width: 252.44px;
+height: 19px;
+left: 182px;
+top: 218px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 288px;
+height: 38px;
+left: 182px;
+top: 246px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* CAMPO NOME */
+
+position: absolute;
+width: 294px;
+height: 66px;
+left: 176px;
+top: 138px;
+
+
+
+/* Insira seu nome completo */
+
+position: absolute;
+width: 263.35px;
+height: 19px;
+left: 197.6px;
+top: 173px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* Roxo */
+color: #6750A4;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Seu Nome */
+
+position: absolute;
+width: 257.7px;
+height: 19px;
+left: 176px;
+top: 138px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 294px;
+height: 38px;
+left: 176px;
+top: 166px;
+
+/* on-primary-fixed-variant */
+border: 1px solid #4F378B;
+border-radius: 6px;
+
+
+/* Adicionar documentos: */
+
+position: absolute;
+width: 369.9px;
+height: 19px;
+left: 44px;
+top: 724px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+
+/* Button
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like Dialogs, Modal windows, Forms, Cards and Toolbars
+
+Filled buttons are high-emphasis buttons.
+They have the most visual impact after the FAB, and should be used for important, final actions that complete a flow, like &quot;Save&quot;, &quot;Join now&quot;, or &quot;Confirm&quot;.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 140px;
+height: 34px;
+left: 29px;
+top: 277px;
+
+background: #4F378B;
+border-radius: 100px;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+width: 140px;
+height: 34px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-text */
+
+width: 96px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+/* Roxo Claro */
+color: #D0BCFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 23 */
+
+position: absolute;
+width: 387px;
+height: 106px;
+left: 62px;
+top: 764px;
+
+
+
+/* Button
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like Dialogs, Modal windows, Forms, Cards and Toolbars
+
+Filled buttons are high-emphasis buttons.
+They have the most visual impact after the FAB, and should be used for important, final actions that complete a flow, like &quot;Save&quot;, &quot;Join now&quot;, or &quot;Confirm&quot;.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 383px;
+height: 47px;
+right: 62px;
+top: 823px;
+
+background: #4F378B;
+border-radius: 100px;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+width: 383px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-text */
+
+width: 335px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+/* Roxo Claro */
+color: #D0BCFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Button
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like Dialogs, Modal windows, Forms, Cards and Toolbars
+
+Filled buttons are high-emphasis buttons.
+They have the most visual impact after the FAB, and should be used for important, final actions that complete a flow, like &quot;Save&quot;, &quot;Join now&quot;, or &quot;Confirm&quot;.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 387px;
+height: 47px;
+right: 62px;
+top: 764px;
+
+background: #4F378B;
+border-radius: 100px;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+width: 387px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-text */
+
+width: 339px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+/* Roxo Claro */
+color: #D0BCFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Button
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like Dialogs, Modal windows, Forms, Cards and Toolbars
+
+Filled buttons are high-emphasis buttons.
+They have the most visual impact after the FAB, and should be used for important, final actions that complete a flow, like &quot;Save&quot;, &quot;Join now&quot;, or &quot;Confirm&quot;.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 122px;
+height: 30px;
+right: 358px;
+top: 108px;
+
+background: #D0BCFF;
+border-radius: 100px;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+width: 122px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-text */
+
+width: 74px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #21005D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;

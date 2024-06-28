@@ -1,0 +1,984 @@
+/* PáginaEmail-Enviado versão que será entregue */
+
+position: relative;
+width: 511px;
+height: 1037px;
+
+background: #FFFFFF;
+
+
+/* Menu 1
+
+3 segment Next navigation bar with icon &amp; label 
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 8px;
+gap: 8px;
+
+position: absolute;
+width: 511px;
+height: 80px;
+left: 0px;
+top: 957px;
+
+/* Roxo Claro
+
+Para fundo com texto roxo escuro, ou para texto em fundo roxo
+*/
+background: #D0BCFF;
+border-radius: 8px 8px 0px 0px;
+
+
+/* Segment 1
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 117.75px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 117.75px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 3
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 117.75px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 64px;
+height: 32px;
+
+/* M3/sys/light/secondary-container */
+background: #E8DEF8;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.5%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 117.75px;
+height: 16px;
+
+/* M3/label/medium - prominent */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* M3/sys/light/on-surface */
+color: #1D1B20;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 4
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 117.75px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 4.17%;
+top: 12.5%;
+bottom: 4.17%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 117.75px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 5
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 117.75px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 4.17%;
+bottom: 4.17%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 117.75px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Active indicator */
+
+position: absolute;
+width: 453px;
+height: 0px;
+left: 25px;
+top: 319px;
+
+/* M3/sys/light/on-surface-variant */
+border: 1px solid #49454F;
+
+
+/* Button
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like Dialogs, Modal windows, Forms, Cards and Toolbars
+
+Filled buttons are high-emphasis buttons.
+They have the most visual impact after the FAB, and should be used for important, final actions that complete a flow, like &quot;Save&quot;, &quot;Join now&quot;, or &quot;Confirm&quot;.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 155px;
+height: 47px;
+right: 171px;
+top: 868px;
+
+background: #D0BCFF;
+border-radius: 100px;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+width: 155px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-text */
+
+width: 107px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #21005D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Menu 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 511px;
+height: 79px;
+left: 0px;
+top: 0px;
+
+
+
+/* Navigation bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 8px;
+gap: 8px;
+
+width: 511px;
+height: 79px;
+
+/* Roxo Claro
+
+Para fundo com texto roxo escuro, ou para texto em fundo roxo
+*/
+background: #D0BCFF;
+border-radius: 0px 0px 8px 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Segment 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px 1px;
+
+width: 243.5px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 252px;
+height: 63px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+
+width: 252px;
+height: 63px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo_she_hacks-removebg-preview 1 */
+
+width: 203px;
+height: 63px;
+
+background: url(logo_she_hacks-removebg-preview.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Segment 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 243.5px;
+height: 84px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 59px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons/account_circle_filled_24px
+
+human, person, people, face, profile, user, account, thumbnail, circle
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* Group 22 */
+
+position: absolute;
+width: 411px;
+height: 146px;
+left: 37px;
+top: 126px;
+
+
+
+/* Primary button
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like Dialogs, Modal windows, Forms, Cards and Toolbars
+
+Outlined buttons are medium-emphasis buttons.
+They contain actions that are important, but aren’t the primary action in an app.
+
+Outlined buttons pair well with filled buttons to indicate an alternative, secondary action.
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 6.92px;
+
+position: absolute;
+width: 134px;
+height: 25px;
+left: calc(50% - 134px/2 + 17.5px);
+top: 208px;
+
+background: #D9D9D9;
+/* M3/sys/light/outline */
+border: 0.865385px solid #79747E;
+border-radius: 86.5385px;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8.65385px 20.7692px;
+gap: 6.92px;
+
+width: 134px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-text */
+
+width: 30px;
+height: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 17px;
+/* identical to box height, or 115% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.0865385px;
+
+/* M3/sys/light/primary */
+color: #6750A4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 19 */
+
+position: absolute;
+width: 242px;
+height: 50px;
+left: 206px;
+top: 153px;
+
+
+
+/* Juliana Amaral dos Santos */
+
+position: absolute;
+width: 242px;
+height: 27px;
+left: 206px;
+top: 153px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* OAB: MS/3212489 */
+
+position: absolute;
+width: 127px;
+height: 20px;
+left: 206px;
+top: 183px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Intersect */
+
+position: absolute;
+width: 146px;
+height: 146px;
+left: 37px;
+top: 126px;
+
+background: url(image.png);
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 146px;
+height: 146px;
+left: 37px;
+top: 126px;
+
+background: #D9D9D9;
+
+
+/* image 2 */
+
+position: absolute;
+width: 280.36px;
+height: 157.2px;
+left: -49.88px;
+top: 114.8px;
+
+background: url(image.png);
+
+
+/* Até logo! Equipe Simplificando Direito */
+
+position: absolute;
+width: 373px;
+height: 143px;
+left: 55px;
+top: 703px;
+
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+
+
+
+/* Fique tranquilo! 😊 Sua mensagem já foi enviada e a advogada Juliana Amaral dos Santos entrará em contato com você em breve. Obrigado por utilizar nossa plataforma! Fique de olho no seu e-mail e telefone para nossas próximas comunicações. */
+
+position: absolute;
+width: 373px;
+height: 377px;
+left: calc(50% - 373px/2);
+top: 366px;
+
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
