@@ -7,486 +7,6 @@ height: 1037px;
 background: #FFFFFF;
 
 
-/* Menu 1
-
-3 segment Next navigation bar with icon &amp; label 
-*/
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px 8px;
-gap: 8px;
-
-position: absolute;
-width: 511px;
-height: 80px;
-left: 0px;
-top: 957px;
-
-/* Roxo Claro
-
-Para fundo com texto roxo escuro, ou para texto em fundo roxo
-*/
-background: #D0BCFF;
-border-radius: 8px 8px 0px 0px;
-
-
-/* Segment 1
-
-Navigation Bar segment building blocks
-
-*/
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 12px 0px 16px;
-gap: 4px;
-
-width: 117.75px;
-height: 80px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-
-
-/* icon-container */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-width: 32px;
-height: 32px;
-
-border-radius: 16px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* state-layer */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 4px 20px;
-gap: 10px;
-
-width: 64px;
-height: 32px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Icon */
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector */
-
-position: absolute;
-left: 16.67%;
-right: 16.67%;
-top: 12.5%;
-bottom: 12.5%;
-
-/* on-primary-fixed-variant */
-background: #4F378B;
-
-
-/* label-text */
-
-width: 117.75px;
-height: 16px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
-text-align: center;
-letter-spacing: 0.5px;
-
-/* on-primary-fixed-variant */
-color: #4F378B;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
-
-/* Segment 3
-
-Navigation Bar segment building blocks
-
-*/
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 12px 0px 16px;
-gap: 4px;
-
-width: 117.75px;
-height: 80px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 1;
-
-
-/* icon-container */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-width: 64px;
-height: 32px;
-
-/* M3/sys/light/secondary-container */
-background: #E8DEF8;
-border-radius: 16px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* state-layer */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 4px 20px;
-
-width: 64px;
-height: 32px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Icon */
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 8.33%;
-bottom: 12.5%;
-
-/* on-primary-fixed-variant */
-background: #4F378B;
-
-
-/* label-text */
-
-width: 117.75px;
-height: 16px;
-
-/* M3/label/medium - prominent */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
-text-align: center;
-letter-spacing: 0.5px;
-
-/* M3/sys/light/on-surface */
-color: #1D1B20;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
-
-/* Segment 4
-
-Navigation Bar segment building blocks
-
-*/
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 12px 0px 16px;
-gap: 4px;
-
-width: 117.75px;
-height: 80px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 1;
-
-
-/* icon-container */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-width: 32px;
-height: 32px;
-
-border-radius: 16px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* state-layer */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 4px 20px;
-gap: 10px;
-
-width: 64px;
-height: 32px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Icon */
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector */
-
-position: absolute;
-left: 12.5%;
-right: 4.17%;
-top: 12.5%;
-bottom: 4.17%;
-
-/* on-primary-fixed-variant */
-background: #4F378B;
-
-
-/* label-text */
-
-width: 117.75px;
-height: 16px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
-text-align: center;
-letter-spacing: 0.5px;
-
-/* on-primary-fixed-variant */
-color: #4F378B;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
-
-/* Segment 5
-
-Navigation Bar segment building blocks
-
-*/
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 12px 0px 16px;
-gap: 4px;
-
-width: 117.75px;
-height: 80px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 3;
-flex-grow: 1;
-
-
-/* icon-container */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-width: 32px;
-height: 32px;
-
-border-radius: 16px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* state-layer */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 4px 20px;
-gap: 10px;
-
-width: 64px;
-height: 32px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Icon */
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector */
-
-position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 4.17%;
-bottom: 4.17%;
-
-/* on-primary-fixed-variant */
-background: #4F378B;
-
-
-/* label-text */
-
-width: 117.75px;
-height: 16px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
-text-align: center;
-letter-spacing: 0.5px;
-
-/* on-primary-fixed-variant */
-color: #4F378B;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
-
 /* Text field */
 
 /* Auto layout */
@@ -1538,3 +1058,396 @@ left: -49.88px;
 top: 114.8px;
 
 background: url(image.png);
+
+
+/* Menu 6
+
+3 segment Next navigation bar with icon &amp; label 
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 8px;
+gap: 8px;
+
+position: absolute;
+width: 511px;
+height: 80px;
+left: 0px;
+top: 957px;
+
+/* Roxo Claro
+
+Para fundo com texto roxo escuro, ou para texto em fundo roxo
+*/
+background: #D0BCFF;
+border-radius: 8px 8px 0px 0px;
+
+
+/* Segment 1
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 159.67px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 3
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 64px;
+height: 32px;
+
+/* M3/sys/light/secondary-container */
+background: #E8DEF8;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.5%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 159.67px;
+height: 16px;
+
+/* M3/label/medium - prominent */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* M3/sys/light/on-surface */
+color: #1D1B20;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 4
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* icon-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* state-layer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+gap: 10px;
+
+width: 64px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 4.17%;
+top: 12.5%;
+bottom: 4.17%;
+
+/* on-primary-fixed-variant */
+background: #4F378B;
+
+
+/* label-text */
+
+width: 159.67px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.5px;
+
+/* on-primary-fixed-variant */
+color: #4F378B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Segment 5
+
+Navigation Bar segment building blocks
+
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 0px 16px;
+gap: 4px;
+
+display: none;
+width: 159.67px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
