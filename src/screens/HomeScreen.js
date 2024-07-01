@@ -1,71 +1,96 @@
-import React from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView, Platform } from 'react-native';
+import React, { useRef } from 'react';
+import { View, Text, StyleSheet, Image,FlatList, TouchableOpacity, ScrollView, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
 
+
+ 
 const HomeScreen = () => {
   const isWeb = Platform.OS === 'web';
 
+  const navigation = useNavigation();
+
+  const scrollViewRef = useRef(null);
+  const comoFuncionaRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    ref.current.measureLayout(
+      scrollViewRef.current,
+      (x, y) => {
+        scrollViewRef.current.scrollTo({ x: 0, y: y, animated: true });
+      }
+    );
+  };
+
+
   return (
     <ScrollView style={isWeb ? styles.webContainer : styles.container}>
-      <View style={isWeb ? styles.webHeader : styles.header}>
-        <Text style={isWeb? styles.webheaderText : styles.headerText}>Simplificando Direito</Text>
-        <Ionicons name="person-circle" size={40} color="purple" />
-      </View>
-      <View style={isWeb ? styles.webStatusContainer : styles.statusContainer}>
-        <Image source={{ uri: 'https://via.placeholder.com/50' }} style={styles.profileImage} />
-        <View>
-          <Text style={styles.statusText}>
-            Seu(sua) advogado(a) está: <Text style={styles.onlineText}>Online</Text>
-          </Text>
-          <Text style={styles.lawyerName}>Juliana Amaral dos Santos</Text>
-          <Text style={styles.lawyerDetails}>OAB: MS/3212489</Text>
-        </View>
-      </View>
-      <TouchableOpacity style={styles.chatButton}>
-        <Text style={styles.chatButtonText}>Conversar com Juliana</Text>
-      </TouchableOpacity>
-      <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Solicitações em Andamento</Text>
-        <View style={styles.card}>
-          <Image source={{ uri: 'https://via.placeholder.com/100' }} style={styles.cardImage} />
-          <View style={styles.cardContent}>
-            <Text style={styles.cardTitle}>Ofício de Recuperação de Bens</Text>
-            <Text style={styles.cardSubtitle}>Status: 2/3 assinados</Text>
-            <TouchableOpacity style={styles.detailsButton}>
-              <Text style={styles.detailsButtonText}>Mais Detalhes</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-        <TouchableOpacity style={styles.viewAllButton}>
-          <Text style={styles.viewAllButtonText}>Ver Todas as Solicitações</Text>
+      <View style={isWeb ? styles.webMenu2 : styles.menu2}>
+        <TouchableOpacity style={styles.viewAllButton} onPress={() => scrollToSection(comoFuncionaRef)}>
+          <Text style={styles.viewAllButtonText}>Como Funciona  </Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.viewAllButton} onPress={() => navigation.navigate('LawyersScreen')}/*onPress={() => /*navigation.navigate('LawyersScreen.js')}*/>
+          <Text style={styles.viewAllButtonText}>Quero uma consultoria </Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.viewAllButton} >
+          <Text style={styles.viewAllButtonText}>Sou advogado </Text>
         </TouchableOpacity>
       </View>
+      <View style={isWeb ? styles.webHeader : styles.header}>
+        <Text style={isWeb? styles.webheaderText : styles.headerText}>Bem-vindo ao Simplificando Direito: Seu Guia Jurídico de Bolso!</Text>
+        <Text style={isWeb? styles.websubtitulo : styles.container}>Transforme dúvidas em soluções. Simplifique seu direito.</Text>
+        <TouchableOpacity style={styles.viewAllButton} /*onPress={() => /*navigation.navigate('LawyersScreen.js')}*/>
+          <Text style={styles.viewAllButtonText}> Acesse agora </Text>
+        </TouchableOpacity>
+      </View>
+  
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Último Documento Acessado</Text>
-        <View style={styles.card}>
-          <Image source={{ uri: 'https://via.placeholder.com/100' }} style={styles.cardImage} />
+        <Text style={styles.sectionTitle}>Consultas Jurídicas com Advogados Qualificados</Text>
+        <View style={isWeb ? styles.webCard : styles.card}>
           <View style={styles.cardContent}>
-            <Text style={styles.cardTitle}>Contrato de Aluguel</Text>
-            <Text style={styles.cardSubtitle}>Validade: 02/2018</Text>
-            <Text style={styles.cardSubtitle}>Último acesso: 03/11/23</Text>
-            <TouchableOpacity style={styles.detailsButton}>
-              <Text style={styles.detailsButtonText}>Quero Rever</Text>
-            </TouchableOpacity>
+          <Text style={styles.sectionHeader}></Text>
+          <Text style={isWeb ? styles.webCard : styles.card}>
+            Não importa a complexidade do seu problema, nossos advogados cadastrados estão prontos 
+            para ajudar. Basta agendar uma consulta diretamente pela plataforma e receber orientações 
+            jurídicas personalizadas para sua situação
+          </Text>
           </View>
         </View>
       </View>
-      {isWeb ? (
-        <View style={styles.webFloatingButton}>
-          <Ionicons name="chatbubble-ellipses" size={34} color="white" />
+      <View style={styles.section}>
+      <Text style={styles.sectionTitle}>Segurança e Confiabilidade</Text>
+      <View style={isWeb ? styles.webCard : styles.card}>
+        <View style={styles.cardContent}>
+          <Text style={styles.sectionHeader}></Text>
+          <Text style={isWeb ? styles.webCard : styles.card}>
+          No Simplificando Direito, sua privacidade e segurança são nossa prioridade. 
+          Utilizamos as tecnologias padrões de criptografia para garantir que todas as 
+          suas informações estejam sempre protegidas.
+          </Text>
+          </View>
         </View>
-      ) : (
-        <View style={styles.floatingButton}>
-          <Ionicons name="chatbubble-ellipses" size={24} color="white" />
+      </View>
+      <View style={styles.section}>
+      <Text style={styles.sectionTitle}>Por Que Escolher o Simplificando Direito?</Text>
+        <View style={isWeb ? styles.webCard : styles.card}>
+          <View style={styles.cardContent}>
+          <Text style={styles.sectionHeader}></Text>
+          <Text style={ isWeb ? styles.webCard : styles.card} >
+            <Text>Praticidade: Atendimento jurídico a qualquer hora e em qualquer lugar.</Text>
+          Confiabilidade: Profissionais qualificados e informações precisas.
+          Acessibilidade: Informações jurídicas descomplicadas para todos.
+          Eficiência: Respostas rápidas e atendimento personalizado.
+          Transforme a maneira como você resolve suas questões jurídicas. 
+          Experimente o Simplificando Direito hoje mesmo e veja como é fácil ter 
+          acesso a informações e serviços jurídicos de qualidade.
+          </Text>
+          </View>
         </View>
-      )}
+      </View>
     </ScrollView>
   );
 };
+
 
 const styles = StyleSheet.create({
   container: {
@@ -81,15 +106,15 @@ const styles = StyleSheet.create({
   
   },
   header: {
-    flexDirection: 'row',
+    flexDirection: 'col',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'left',
     marginBottom: 16,
   },
   webHeader: {
-    flexDirection: 'row',
+    flexDirection: 'col',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'left',
     marginBottom: 24,
       },
   headerText: {
@@ -101,6 +126,22 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontWeight: 'bold',
     color: 'purple',
+  }, 
+  websubtitulo:{
+    fontSize: 25,
+  },
+  menu2: {
+    flexDirection: 'row',
+    justifyContent: 'flex-left',
+  },
+  webMenu2:{
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    fontSize: 18,
+    color: 'purple',
+  },
+  webCard: {
+    fontSize: 20,
   },
   statusContainer: {
     flexDirection: 'row',
