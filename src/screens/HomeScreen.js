@@ -76,7 +76,7 @@ const HomeScreen = () => {
           <View style={styles.cardContent}>
           <Text style={styles.sectionHeader}></Text>
           <Text style={ isWeb ? styles.webCard : styles.card} >
-            <Text>Praticidade: Atendimento jurídico a qualquer hora e em qualquer lugar.</Text>
+          Praticidade: Atendimento jurídico a qualquer hora e em qualquer lugar.
           Confiabilidade: Profissionais qualificados e informações precisas.
           Acessibilidade: Informações jurídicas descomplicadas para todos.
           Eficiência: Respostas rápidas e atendimento personalizado.
