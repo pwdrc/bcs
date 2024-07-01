@@ -7,8 +7,6 @@ import HomeScreen from './src/screens/HomeScreen';
 import LawyersScreen from './src/screens/LawyersScreen';
 import LawyerDetails from './src/screens/LawyerDetails';
 import LawyerRegistrationScreen from './src/screens/LawyerRegistrationScreen';
-import DocumentScreen from './src/screens/DocumentScreen';
-import ScannerScreen from './src/screens/ScannerScreen';
 import EmailSentScreen from './src/screens/EmailSentScreen';
 import ContactEmailScreen from './src/screens/ContactEmailScreen';
 
@@ -58,7 +56,6 @@ function App() {
       >
         <Tab.Screen name="Início" component={HomeScreen} />
         <Tab.Screen name="Consultoria" component={LawyersStack} />
-        <Tab.Screen name="Documentos" component={LawyerRegistrationScreen} />
    
       </Tab.Navigator>
     </NavigationContainer>
