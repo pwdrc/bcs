@@ -58,7 +58,6 @@ function App() {
       >
         <Tab.Screen name="Início" component={HomeScreen} />
         <Tab.Screen name="Consultoria" component={LawyersStack} />
-        <Tab.Screen name="Documentos" component={LawyerRegistrationScreen} />
    
       </Tab.Navigator>
     </NavigationContainer>

@@ -27,12 +27,12 @@ const HomeScreen = () => {
     <ScrollView style={isWeb ? styles.webContainer : styles.container}>
       <View style={isWeb ? styles.webMenu2 : styles.menu2}>
         <TouchableOpacity style={styles.viewAllButton} onPress={() => scrollToSection(comoFuncionaRef)}>
-          <Text style={styles.viewAllButtonText}>Como Funciona  </Text>
+          <Text style={styles.viewAllButtonText}>Como Funciona</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.viewAllButton} onPress={() => navigation.navigate('LawyersScreen')}/*onPress={() => /*navigation.navigate('LawyersScreen.js')}*/>
-          <Text style={styles.viewAllButtonText}>Quero uma consultoria </Text>
+          <Text style={styles.viewAllButtonText}>Quero uma consultoria</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.viewAllButton} >
+        <TouchableOpacity style={styles.viewAllButton} onPress={() => navigation.navigate('LawyerRegistrationScreen')}>
           <Text style={styles.viewAllButtonText}>Sou advogado </Text>
         </TouchableOpacity>
       </View>
@@ -40,7 +40,7 @@ const HomeScreen = () => {
         <Text style={isWeb? styles.webheaderText : styles.headerText}>Bem-vindo ao Simplificando Direito: Seu Guia Jurídico de Bolso!</Text>
         <Text style={isWeb? styles.websubtitulo : styles.container}>Transforme dúvidas em soluções. Simplifique seu direito.</Text>
         <TouchableOpacity style={styles.viewAllButton} /*onPress={() => /*navigation.navigate('LawyersScreen.js')}*/>
-          <Text style={styles.viewAllButtonText}> Acesse agora </Text>
+          <Text style={styles.viewAllButtonText} onPress={() => navigation.navigate('LawyersScreen')}> Acesse agora </Text>
         </TouchableOpacity>
       </View>
   
