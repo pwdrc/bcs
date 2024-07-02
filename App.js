@@ -6,6 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import HomeScreen from './src/screens/HomeScreen';
 import LawyersScreen from './src/screens/LawyersScreen';
 import LawyerDetails from './src/screens/LawyerDetails';
+import LawyerRegistrationScreen from './src/screens/LawyerRegistrationScreen';
 import DocumentScreen from './src/screens/DocumentScreen';
 import ScannerScreen from './src/screens/ScannerScreen';
 import EmailSentScreen from './src/screens/EmailSentScreen';
@@ -19,6 +20,7 @@ function LawyersStack() {
     <Stack.Navigator>
       <Stack.Screen name="LawyersScreen" component={LawyersScreen} options={{ headerShown: false }} />
       <Stack.Screen name="LawyerDetails" component={LawyerDetails} options={{ headerShown: false }} />
+      <Stack.Screen name="LawyerRegistrationScreen" component={LawyerRegistrationScreen} options={{ headerShown: false }} />
       <Stack.Screen name="ContactEmailScreen" component={ContactEmailScreen} options={{ headerShown: false }} />
       <Stack.Screen name="EmailSentScreen" component={EmailSentScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
@@ -45,7 +47,7 @@ function App() {
 
             return <Ionicons name={iconName} size={size} color={color} />;
           },
-          tabBarActiveTintColor: '21005D',
+          tabBarActiveTintColor: '#4F378B',
           tabBarInactiveTintColor: 'gray',
           tabBarStyle: {
             backgroundColor: '#D0BCFF', // Define a cor de fundo da barra de navegação
